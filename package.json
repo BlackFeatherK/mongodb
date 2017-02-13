@@ -1,0 +1,10 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "BlackFeather <she3354248@yahoo.com.tw>",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^4.8.2"
+  }
+}
