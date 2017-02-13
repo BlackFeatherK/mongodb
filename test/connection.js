@@ -13,3 +13,8 @@ before(function(done){
   });
 });
   
+beforeEach(function(done){
+  mongoose.connection.collections.mariochars.drop(function(){
+    done();
+  });
+});
